@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>2d array</title>
+	</head>
+	<div id="result" style="text-align: center"></div>
+	<body>
+		<script>
+			for (let i = 1; i <= 10; i++) {
+				document.getElementById(
+					'result'
+				).innerHTML += `<h3>Multiplication Table of ${i}<h3>`;
+				for (let j = 1; j <= 10; j++) {
+					let result = `${i} x ${j} = ${i * j} <br>`;
+					document.getElementById('result').innerHTML += result;
+				}
+				document.getElementById('result').innerHTML += `<hr>`;
+			}
+		</script>
+	</body>
+</html>
