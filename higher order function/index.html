@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>higher order function</title>
+	</head>
+	<body>
+		<script>
+			// var arr = [10, 20, 30, 40, 50];
+			// normal
+
+			// var myArr = [];
+			// for (i of arr) {
+			// 	myArr.unshift(i * 2);
+			// }
+
+			//map
+
+			// myArr = arr.map((el) => {
+			// 	return el * 5;
+			// });
+			// console.log(myArr);
+
+			// filter
+
+			// myArry = arr.filter((el) => {
+			// if (el > 35) {
+			// 	return true;
+			// } else {
+			// 	return false;
+			// }
+			// return el > 35;
+			// });
+			// console.log(myArry);
+
+			// reduce
+
+			// var total = arr.reduce((x, y) => {
+			// 	return x + y;
+			// });
+			// console.log(total);
+
+			// challenge //
+			let myArr = [2, 4, 9, 23, 435];
+			function cumulativeAddition(array) {
+				total = array.reduce((x, y) => {
+					return x + y;
+				});
+				let arr = [total, array.length];
+				return arr;
+			}
+
+			let result = cumulativeAddition(myArr);
+			console.log(result);
+		</script>
+	</body>
+</html>
