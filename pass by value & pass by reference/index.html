@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			// pass by value
+
+			// let x = 'hi';
+			// let y = x;
+			// x = 'esraa';
+
+			// pass by reference
+
+			var w = ['hello'];
+			var z = w;
+			w.push('world');
+			console.log(w);
+			console.log(z); // ['hello', 'world']
+			let x = {
+				name: 'khaled',
+			};
+			let y = x;
+			x.name = 'esraa';
+			console.log('the x value is:', x);
+			console.log('the y value is :', y);
+		</script>
+	</body>
+</html>
