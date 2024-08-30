@@ -6,5 +6,5 @@ https://66cd6f354392fc8bab382f35--taupe-donut-536aad.netlify.app/
 # challenge 2 (X-O game)↙
 https://66d169e907a0751ce4c7fd8f--glittering-pothos-419352.netlify.app/
 #here
-![image](https://github.com/user-attachments/assets/7d630e64-7530-4749-b11b-7c750cd78e12)
+![image](https://github.com/user-attachments/assets/a42407b9-ac8f-4f30-a7af-9358829cd7f9)
 
