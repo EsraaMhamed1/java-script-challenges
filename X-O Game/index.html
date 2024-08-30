@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>X-O Game</title>
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- google fonts  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- alertify.js  -->
+
+		<!-- JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+
+		<!-- CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/css/alertify.min.css"
+		/>
+	</head>
+	<body>
+		<!-- all content  -->
+		<div id="all-content">
+			<!-- main content  -->
+			<div id="main-content">
+				<!-- header  -->
+				<div id="header">
+					<!-- instraction  -->
+					<p id="instruction">x turn</p>
+					<!-- instraction  -->
+				</div>
+				<!-- header  -->
+
+				<!-- game board  -->
+				<div id="grid-container">
+					<!-- squere  -->
+					<!-- row1 -->
+					<div
+						class="squere"
+						value="1"
+						style="
+							border-right: 2px solid black;
+							border-bottom: 2px solid black;
+						"
+					>
+						<h3 class="squere-content"></h3>
+					</div>
+					<div
+						class="squere"
+						value="2"
+						style="
+							border-right: 2px solid black;
+							border-bottom: 2px solid black;
+						"
+					>
+						<h3 class="squere-content"></h3>
+					</div>
+					<div class="squere" value="3" style="border-bottom: 2px solid black">
+						<h3 class="squere-content"></h3>
+					</div>
+					<!-- row1 -->
+
+					<!-- row2 -->
+					<div
+						class="squere"
+						value="4"
+						style="
+							border-right: 2px solid black;
+							border-bottom: 2px solid black;
+						"
+					>
+						<h3 class="squere-content"></h3>
+					</div>
+					<div
+						class="squere"
+						value="5"
+						style="
+							border-right: 2px solid black;
+							border-bottom: 2px solid black;
+						"
+					>
+						<h3 class="squere-content"></h3>
+					</div>
+					<div class="squere" value="6" style="border-bottom: 2px solid black">
+						<h3 class="squere-content"></h3>
+					</div>
+					<!-- row2  -->
+
+					<!-- row3 -->
+					<div class="squere" value="7" style="border-right: 2px solid black">
+						<h3 class="squere-content"></h3>
+					</div>
+					<div class="squere" value="8" style="border-right: 2px solid black">
+						<h3 class="squere-content"></h3>
+					</div>
+					<div class="squere" value="9">
+						<h3 class="squere-content"></h3>
+					</div>
+					<!-- row3 -->
+					<!-- squere  -->
+				</div>
+				<!-- game board  -->
+
+				<!-- footer  -->
+				<div id="footer">
+					<button class="rest-btn" id="reset">reset</button>
+				</div>
+				<!-- footer  -->
+			</div>
+			<!-- main content  -->
+		</div>
+		<!-- all content  -->
+
+		<script src="script.js"></script>
+	</body>
+</html>
