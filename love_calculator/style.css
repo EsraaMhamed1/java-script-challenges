@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  body[dir="rtl"] {
+    direction: rtl;
+  }
+  
+  body[dir="ltr"] {
+    direction: ltr;
+  }
+  
+body{
+    background-image: url(img/imagelove.jpg);
+    /* background-color: #fceaff; */
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    width: 60%;
+    background-color:#fff0f6 ;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff85c0;
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    color: #ff85c0;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+.love-calculator{
+    margin-top: 20px;
+}
+label{
+    color:#ff85c0;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    color:#ff85c0 ;
+    border-radius: 15px;
+    border: none;
+}
+
+button{
+    background-color: #ff85c0;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#result{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #ff85c0;
+
+}
+

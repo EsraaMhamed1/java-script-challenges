@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="switchLanguage('en')">English</button>
+    <button onclick="switchLanguage('ar')">العربية</button>
+
+    <div class="container">
+        <h2><i>love calculator</i></h2>
+        <div class="love-calculator">
+            <label for="name1">your name:</label>
+            <input type="text" id="name1" placeholder="Enter your name">
+
+            <label for="name2">your partner's name:</label>
+            <input type="text" id="name2" placeholder="Enter your partener's name">
+
+            <button onclick="calculatorLove()">calculate</button>
+
+            <div id="result">Result</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
