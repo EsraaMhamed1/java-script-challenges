@@ -1,0 +1,86 @@
+body{
+    box-sizing: border-box;
+    background-image:url(img/bmi.avif);
+    font-family: sans-serif;
+    color:  rgba(75, 66, 12, 0.686);;
+}
+
+.container{
+    border-radius: 15px;
+   width: 60%;
+    margin: 90px auto;
+    background-color: rgba(255, 255, 255, 0.773);
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    padding-top:10px ;
+    color: rgba(75, 66, 12, 0.686);
+    text-align: center;
+    text-decoration: underline;
+}
+
+form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+label{
+    font-size: large;
+    font-weight: 600px;
+    margin-bottom: 5px;
+    
+    padding-left: 10px;
+}
+
+input[type="number"],
+select{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+}
+
+input[type="number"]:focus,select:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px #1e5f8a;
+
+}
+select{
+    width: 95%;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(206, 195, 128);
+    color: #fff;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition:background-color 0.s ease ;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(198, 187, 128);
+}
+
+#result{
+    font-weight: bold;
+    text-align: center;
+   padding-bottom: 15px;
+    color: goldenrod;
+}
+
+input[type="number" ] , input[type="submit"]{
+    max-width: 90%;
+}
+
