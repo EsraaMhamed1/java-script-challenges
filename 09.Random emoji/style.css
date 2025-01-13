@@ -1,0 +1,21 @@
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ccc;
+}
+
+#emoji {
+	font-size: 10rem;
+	filter: grayscale(1); /*تحويل العنصر يظهر باللون الابيض ولاسود فقط */
+	cursor: pointer;
+	transition-property: transform, filter; /* ولاحركة  تدرج للون*/
+	transition-duration: 200ms; /* مدة الانتقال */
+}
+
+#emoji:hover {
+	transform: scale(1.3);
+	filter: grayscale(0);
+}
